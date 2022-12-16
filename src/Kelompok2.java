@@ -84,7 +84,7 @@ public class Kelompok2 {
         System.out.print("\nAnda ingin mengulang [y/t] : ");
         scanner.nextLine();
         program = scanner.nextLine();
-        if(program.equals("y")){
+        if(program.equals("y") || program.equals("Y")){
             main(args);
         }
     }
