@@ -55,7 +55,7 @@ public class Kelompok2 {
             System.out.println("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n");
             System.out.println("Deret Bilangan");
             System.out.println("###############");
-            System.out.println("20 Bilangan Genap : ");
+            System.out.println(Angka+ " Bilangan Genap : ");
             while (bilGenap<Angka){
                 if(deret%2 ==0){
                     System.out.print(deret+" ");
@@ -71,7 +71,7 @@ public class Kelompok2 {
 
             // menghitung bilangan ganjil
             deret =1;//Reset deret
-            System.out.println("\n20 Bilangan Ganjil : ");
+            System.out.println("\n" +Angka+ " Bilangan Ganjil : ");
             while (bilGanjil<Angka){
                 if(deret%2 ==1){
                     System.out.print(deret+" ");
@@ -92,7 +92,7 @@ public class Kelompok2 {
             int past = 0;
 
             // menghitung bilangan fibonacci
-            System.out.println("\n20 Bilangan Fibonacci : ");
+            System.out.println("\n" +Angka+ " Bilangan Fibonacci : ");
             while (bilFib<Angka){
                 int current = deret + past;
                 if(bilFib==0){
