@@ -67,7 +67,7 @@ public class Kelompok2 {
             }
 
             // menampilkan bilangan genap
-            System.out.println("\nTotal Bolangan Genap = "+totalGenap);
+            System.out.println("\nTotal Bilangan Genap = "+totalGenap);
 
             // menghitung bilangan ganjil
             deret =1;//Reset deret
@@ -83,7 +83,7 @@ public class Kelompok2 {
             }
 
             // menampilkan bilangan ganjil
-            System.out.println("\nTotal Bolangan Ganjil = "+totalGanjil);
+            System.out.println("\nTotal Bilangan Ganjil = "+totalGanjil);
 
             // reset deret
             deret =1;
@@ -109,7 +109,7 @@ public class Kelompok2 {
             }
 
             // menampilkan bilangan fibonacci
-            System.out.println("\nTotal Bilangan Fibonachi = "+totalFibo);
+            System.out.println("\nTotal Bilangan Fibonacci = "+totalFibo);
 
             // question to user untuk mengulanng program bilangan
             System.out.print("\nAnda ingin mengulang [y/t] : ");
